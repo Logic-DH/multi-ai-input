@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+.build-venv/
+reference-ui-template-v18.5.20/
