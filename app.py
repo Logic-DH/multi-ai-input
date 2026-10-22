@@ -25,9 +25,9 @@ from platform_adapters import PLATFORMS, PLATFORM_MAP, Platform
 from runtime_logging import configure as configure_runtime_logging, new_correlation_id, safe_path, safe_url
 
 
-APP_NAME = "多平台 AI 同步输入器"
-VERSION = "0.14.0"
-BUILD_ID = os.getenv("MULTIAI_BUILD_ID", f"v{VERSION}")
+APP_NAME = "多平台Ai同步输入器"
+VERSION = "V1"
+BUILD_ID = os.getenv("MULTIAI_BUILD_ID", VERSION)
 
 
 LOGIN_RULES = {
